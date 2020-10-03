@@ -1,0 +1,558 @@
+@charset "utf-8";
+/* CSS Document */
+
+.photo {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	 background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ width: 100%;
+
+}
+
+.head {
+	background-image:url(https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg);
+	height: 800px;
+	
+}
+
+.end {
+	background-image:url(https://static.pexels.com/photos/196254/pexels-photo-196254.jpeg);
+	height: 525px;
+	opacity: 0.7;
+	
+}
+
+.navbar-fixed-top {
+	font-size: 14px;
+	color: silver;
+	overflow: hidden;
+	
+	}
+
+
+li {
+	list-style-type: none;
+	text-decoration: none;
+}
+
+
+
+p {
+
+	font-size: 16px;
+	font-family: "Roundo", Helvetica, sans-serif;
+}
+
+h2 {
+
+	font-family: "Open Sans", Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 42px;
+}
+
+i {
+	position: relative; 
+	left: 175px;
+
+}
+
+
+h3 {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+form {
+	text-align: center;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: rgba(0,0,0,0.5) !important;
+  transition: background-color 200ms linear;
+}
+
+
+.menu-bar ul {
+	font-family: "Open Sans", Helvetica, sans-serif;	
+	list-style: none;
+    padding: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+    width: 1100px;
+    margin: 0;
+	text-transform: uppercase;
+	float: right;
+}
+
+.menu-bar li {
+	color: silver;
+	
+	margin: 13px 11px;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	text-transform: uppercase;
+	float: right;
+}
+
+.menu-bar li a {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: 0;
+  font-size: 16px;
+}
+
+.menu-bar li a:hover {
+	color:  lightskyblue;
+}
+
+
+#content {
+	display: inline-block;
+	width: 100%;
+	background-size: cover;
+	height: 1000px;
+}
+
+
+#box {
+	color: white;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 72px;
+	position: relative;
+	text-align: center;
+
+}
+
+span {
+	padding: 5px;
+	margin: 5px;
+    border: 5px solid white;
+    display: inline-block;
+	position: relative;
+	top: 200px;
+
+
+}
+
+body {
+ 
+  	color: white;
+  
+}
+
+.jumbotron {
+	background-color: rgb(37, 124, 146) !important; 
+}
+
+
+#superpowers {
+  color: gray;
+  
+  
+  background-color: white;
+	
+}
+#superpower {
+  color: gray;
+  
+  background-color: white;
+
+}
+#portfolio {
+	width: 100%;
+	
+	padding: 0 50 50 0;
+  	color: white;
+}
+
+
+#about {
+	height:  600px;
+  
+  color: gray;
+  
+  background-color: white;
+  width: 100%;
+  padding-top: 10px;
+
+	
+}
+
+.img-circle {
+  border:2px solid white;
+}
+
+
+#contact {
+    display:block;
+    width: 50%;
+    margin:0 auto;
+    left: 15px;
+    color:gray;
+    color:rgb(37, 124, 146)
+
+  
+}
+
+.form {
+	height: 250px;
+     position: absolute;
+     display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.footer, .push {
+    height: 10px;
+    min-height: 1px;
+  color: gray;
+}
+
+footer {
+	
+	bottom: 0;
+	width: 100%;
+  color: silver;
+}
+
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+.social-network {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  left: 150;
+}
+.social-network li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+  color: black;
+}
+a.socialIcon:hover, .socialHoverClass {
+  color:#44BCDD;
+}
+
+.social-network li a {
+  display:inline-block;
+  position: relative;
+  margin:0 auto;
+  width: 50px;
+  height: 50px;
+  font-size:20px;
+  top: 50px;
+  color:rgb(37, 124, 146)
+}
+
+.social-network li a:hover {
+  color:rgb(37, 124, 146);
+}
+
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+.img1{
+  /*linear-gradient is for oppicity */
+ background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.7)) ,url(..//images/w3.jpeg);
+ background-size: 100% 100% ;
+}
+
+.slider,.slider ul,.slider li{
+
+ height: 550px;
+ color:white;
+ text-align:center
+
+}
+.slider h2
+{
+font-weight: bold;
+
+
+}
+.slider span{
+ color:turquoise;
+}
+
+.slider a {
+ padding: 10px 50px;
+ background-color: grey;
+ margin-right:10px;
+}
+
+.slider a.btn-half{
+ background-color: deepskyblue;
+ color:white;
+ transition: 0.25s ease-in;
+
+}
+.slider a.btn-half:hover{
+opacity: 0.7;
+background-color: dodgerblue;
+
+}
+.slider a.btn-full{
+ background-color: lightgreen;
+ color:white;
+ transition: 0.25s ease-in;
+
+}
+.slider a.btn-full:hover{
+ opacity: 0.7;
+ background-color: darkolivegreen;
+
+}
+.img2{
+
+ background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(..//images/w2.png);
+ background-size: 100% 100% ;
+}
+
+.slider i{
+  font-size: 35px;
+  margin-right: 10px;
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+ /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 400px) and (max-width : 500px) {
+ 	.photo{
+ 
+        background-attachment: scroll;
+      }
+      
+      .menu-bar li a {
+        font-size: 13px;
+      }
+
+     .head {
+     	height: 400px;
+     }
+
+     .end {
+      height: 625px;
+     }
+
+      #box {
+        font-size: 32px;
+      }
+
+      #superpowers {
+       
+      }
+
+      #portfolio {
+      	
+      }
+
+      #about {
+        height: 750px;
+        
+      }
+      #about p{
+        
+        font-size: 17px;
+        text-align:center;
+        margin-left: 60px;
+    
+     }
+
+      
+      #contact {
+      	width: 100%;
+  
+      }
+
+      .social-network {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  left: 100;
+}
+
+      .social-network li a {
+  display:inline-block;
+  position: relative;
+  margin:0 auto 0 auto;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  width: 25px;
+  height: 25px;
+  font-size: 13px;
+  color:black;
+}
+
+.img2{
+
+  background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(..//images/w2.png);
+  background-size: 330px 200px ;
+  background-repeat: no-repeat;
+  width:400px;
+  height: 500px;
+
+ }
+.slider {
+  width:300px;
+  height: 500px;
+}
+
+.slider,.slider ul,.slider li{
+  width:300px;
+  height: 500px;
+  color:white;
+  text-align:center
+ 
+ }
+  ul#slider-carousel.slider-carousel{
+   width:300px!important;
+   height: 400px;
+ }
+ p {
+  width: 250px;
+  font-size: 15px;
+}
+      
+    }
+
+@media only screen and (max-width: 375px) {
+	.photo {
+		 background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.slider-carousel ul{
+  width:300px;
+}
+p {
+  width: 250px;
+  font-size: 15px;
+}
+	#box {
+		font-size: 16px;
+	}
+
+	 .menu-bar li a {
+        font-size: 10px;
+      }
+
+     .head {
+     	height: 400px;
+
+     }
+
+          .end {
+      height: 725px;
+     }
+
+
+      #box {
+        font-size: 30px;
+      }
+
+      #portfolio {
+      
+	
+}
+        #superpowers {
+        
+      }
+     
+
+      #about {
+      	height: 775px;
+      }
+       #about p{
+        
+          font-size: 16px;
+          text-align:center;
+          margin-left: 50px;
+      
+       }
+      
+      #contact {
+      	width: 100%;
+  
+      }
+
+
+      .img2{
+
+        background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(..//images/w2.png);
+        background-size: 330px 200px ;
+        width:400px;
+        height: 500px;
+        background-repeat: no-repeat;
+      
+       }
+      .slider {
+        
+        height: 500px;
+      }
+       .social-network {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  left: 100;
+}
+
+
+       .social-network li a {
+  display:inline-block;
+  position: absolute;
+  margin:0 auto 0 auto;
+  width: 25px;
+  height: 25px;
+  font-size: 13px;
+  color :black;
+}
+}
